@@ -1,0 +1,7 @@
+beam_paths:
+  0:
+    type: airy
+    diameter: 14
+telescope_location: (-26.703319405555554, 116.67081523611111, 377.827)
+telescope_name: square_grid
+

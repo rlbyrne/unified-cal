@@ -1,0 +1,18 @@
+filing:
+  outdir: .
+  outfile_prefix: square_grid_sim_
+  output_format: uvh5
+freq:
+  Nfreqs: 1
+  channel_width: 80000.0
+  freq_array : [1.5000e+08]
+sources:
+  catalog: 'gleam_catalog.vot'
+telescope:
+  array_layout: 'square_grid_layout.csv'
+  telescope_config_name: 'square_grid_telescope.yaml'
+time:
+  time_array: [2456528.2532407343]
+  integration_time: 2.0
+select:
+  redundant_threshold: 0.1
